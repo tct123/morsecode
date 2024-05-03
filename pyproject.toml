@@ -2,7 +2,7 @@
 name = "morsecode"
 version = "0.1.0"
 description = ""
-repository = ""
+repository = "https://github.com/tct123/morsecode"
 authors = ["tct123 <42028373+tct123@users.noreply.github.com>"]
 readme = "README.md"
 
