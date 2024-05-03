@@ -127,27 +127,26 @@ def decrypt(message):
 
 
 # Hard-coded driver function to run the program
-def main():
-    message = input("Message: ")
-    result = encrypt(message.upper())
-    print(result)
-    long = 0.5
-    verrylong = 1
-    short = 0.2
-    current = 0
-    for i in result:
-        if i == ".":
-            current = short
-            play(length=current)
-        if i == "-":
-            current = long
-            play(length=current)
-        if i == " ":
-            time.sleep(verrylong)
-
-    # message = "--. . . -.- ... -....- ..-. --- .-. -....- --. . . -.- ... "
-    # result = decrypt(message)
-    # print(result)
+# def main():
+#    message = input("Message: ")
+#    result = encrypt(message.upper())
+#    print(result)
+#    long = 0.5
+#    verrylong = 1
+#    short = 0.2
+#    current = 0
+#    for i in result:
+#        if i == ".":
+#            current = short
+#            play(length=current)
+#        if i == "-":
+#            current = long
+#            play(length=current)
+#        if i == " ":
+#            time.sleep(verrylong)
+# message = "--. . . -.- ... -....- ..-. --- .-. -....- --. . . -.- ... "
+# result = decrypt(message)
+# print(result)
 
 
 # Executes the main function
