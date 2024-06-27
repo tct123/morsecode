@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mymorsecode"
-version = "0.3.0"
+version = "0.4.0"
 description = ""
 license = "MIT"
 repository = "https://github.com/tct123/morsecode"
