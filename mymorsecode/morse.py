@@ -150,5 +150,5 @@ def decrypt(message):
 
 
 # Executes the main function
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
